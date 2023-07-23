@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "college_Name": "Rajuk Uttara Model College",
+        "college_image":"https://i.ibb.co/vZJ5n3P/college-1.png",
+        "admission_dates": "May 12, 2023",
+        "events": ["Annual Sports Day, ", "Science Fair, ", "Career Fair, ", "College Picnic"],
+        "research_history": "Rajuk Uttara Model College (RUMC) is a prestigious educational institution in Bangladesh, focusing on academic excellence and holistic education.",
+        "sports": ["Football, ", "Cricket, ", "Badminton, ", "Swimming"],
+        "admission_process": "Rajuk Uttara Model College's admission process typically involves filling out an application form, submitting required documents, and may include an admission test or interview. For updated details, check their official website or contact the college directly.",
+        "events_details": "Apologies for the confusion in my previous responses. As an AI language model, I don't have access to real-time data, including specific details about events at Rajuk Uttara Model College (RUMC). For information about their events, visit their official website or contact the college directly.",
+        "research_works":"Rajuk Uttara Model College (RUMC) primarily focuses on higher secondary education, and research works may be limited. For updates, visit their official website or contact the college directly.",
+        "sports_categories": "Rajuk Uttara Model College offers sports like football, cricket, basketball, badminton, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "college_Name": " Notre Dame College Dhaka",
+        "college_image":"https://i.ibb.co/MphWx2f/download-1.png",
+        "admission_dates": "May 12, 2023",
+        "events": ["Annual Sports Day, ", "Science Fair, ", "Career Fair, ", "College Picnic"],
+        "research_history": "Notre Dame College Dhaka emphasizes higher secondary education, and research history may be limited. For updates, check their official website or contact the college directly..",
+        "sports": ["Football, ", "Cricket, ", "Badminton, ", "Swimming"],
+        "admission_process": "Notre Dame College Dhaka's admission process includes filling the application form, submitting documents, and may involve tests or interviews. Check their website or contact the college for details.",
+        "events_details": "For information about events at Notre Dame College Dhaka, please visit their official website or contact the college directly.",
+        "research_works":"Notre Dame College Dhaka mainly focuses on higher secondary education, and research works may be limited. For the latest information, visit their official website or contact the college directly.",
+        "sports_categories": "Notre Dame College Dhaka offers sports like football, cricket, basketball, badminton, table tennis, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "college_Name": " Viqarunnisa Noon School & College ",
+        "college_image":"https://i.ibb.co/pZsTt60/download-2.png",
+        "admission_dates": "May 12, 2023",
+        "events": ["Annual Sports Day, ", "Science Fair, ", "Career Fair, ", "College Picnic"],
+        "research_history": "Viqarunnisa Noon School & College (VNSC) - A prestigious institution in Bangladesh, nurturing critical thinking through academic projects. Visit their website for updates.",
+        "sports": ["Football, ", "Cricket, ", "Badminton, ", "Swimming"],
+        "admission_process": "Rajuk Uttara Model College's admission process typically involves filling out an application form, submitting required documents, and may include an admission test or interview. For updated details, check their official website or contact the college directly.",
+        "events_details": "Apologies for the confusion in my previous responses. As an AI language model, I don't have access to real-time data, including specific details about events at Rajuk Uttara Model College (RUMC). For information about their events, visit their official website or contact the college directly.",
+        "research_works":"Rajuk Uttara Model College (RUMC) primarily focuses on higher secondary education, and research works may be limited. For updates, visit their official website or contact the college directly.",
+        "sports_categories": "Rajuk Uttara Model College offers sports like football, cricket, basketball, badminton, athletics, volleyball, chess, handball, and swimming. For details, check their website or contact the college."
+    }
+   
+]
