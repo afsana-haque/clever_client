@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     const navItem = <>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='/'>Colleges</Link></li>
+    <li><Link to='/allColleges'>Colleges</Link></li>
     <li><Link to='/'>Admission</Link></li>
     <li><Link to='/'>My College</Link></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-slate-100 rounded">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

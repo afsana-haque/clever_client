@@ -7,6 +7,9 @@ import CollageOneDetails from "../pages/College/CollageDetails/CollageOneDetails
 import College from "../pages/College/College";
 import CollegeCard from "../pages/College/CollegeCard";
 import Login from "../pages/Login/Login";
+import SignUp from "../pages/SignUp/SignUp";
+import AllColleges from "../pages/Home/AllColleges/AllColleges";
+import PrivateRoute from "./PrivateRoute";
 
  export const router = createBrowserRouter([
     {
@@ -32,7 +35,15 @@ import Login from "../pages/Login/Login";
         {
           path: "/login",
           element: <Login></Login>
-        }
+        },
+        {
+          path: "/signup",
+          element: <SignUp></SignUp>
+        },
+        {
+          path: "/allColleges",
+          element: <PrivateRoute><AllColleges></AllColleges></PrivateRoute>
+        },
       ]
     },
   ]);

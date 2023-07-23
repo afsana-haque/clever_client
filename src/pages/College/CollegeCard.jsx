@@ -15,7 +15,7 @@ const CollegeCard = ({ college }) => {
                 <p className='lg:pe-80'><span className='font-bold'>Research History: </span>{research_history}</p> 
                 <p> <span className='font-bold'>Sports: </span>{sports}</p> 
                 <div className="card-actions justify-end">
-                    <Link to={`/collegeDetails/${_id}`}><button className="btn btn-primary">Details</button></Link>
+                    <Link to={`/collegeDetails/${_id}`}><button className="btn btn-info text-white">Details</button></Link>
                 </div>
             </div>
         </div>
