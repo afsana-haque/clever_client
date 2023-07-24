@@ -5,7 +5,7 @@ const AllColleges = () => {
     const [allColleges, setAllColleges] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/allColleges")
+        fetch("https://clever-server.vercel.app/allColleges")
         .then(res => res.json())
         .then(data => setAllColleges(data))
     },[])
