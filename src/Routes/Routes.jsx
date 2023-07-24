@@ -10,11 +10,13 @@ import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import AllColleges from "../pages/Home/AllColleges/AllColleges";
 import PrivateRoute from "./PrivateRoute";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
  export const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
           path: "/",
@@ -30,7 +32,7 @@ import PrivateRoute from "./PrivateRoute";
         },
         {
           path: "/collegeDetails/:id",
-          element: <CollageOneDetails></CollageOneDetails>
+          element:<CollageOneDetails></CollageOneDetails>
         },
         {
           path: "/login",

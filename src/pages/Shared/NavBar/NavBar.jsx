@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../providers/AuthProvider';
+import { FaUserCircle } from "react-icons/fa";
 
 const NavBar = () => {
+    const {user, logOut} = useContext(AuthContext);
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch((error) => console.log(error)
+            )
+    }
+
     const navItem = <>
     <li><Link to='/'>Home</Link></li>
     <li><Link to='/allColleges'>Colleges</Link></li>
     <li><Link to='/'>Admission</Link></li>
-    <li><Link to='/'>My College</Link></li>
+    <li><Link to='/myCollege'>My College</Link></li>
     </>
     return (
         <div className="navbar bg-slate-100 rounded">
@@ -29,7 +39,11 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <Link to="/login"  className="btn btn-info text-white" >Login</Link>
+            {user && <div className='flex justify-center items-center gap-2'><p><FaUserCircle/></p> <p className='mr-5'>{user.displayName}</p></div>}
+
+            {
+                user ? <button onClick={handleLogOut} className="btn btn-info text-white">LogOut</button> : <Link to="/login"  className="btn btn-info text-white" >Login</Link>
+            }
             </div>
         </div>
     );

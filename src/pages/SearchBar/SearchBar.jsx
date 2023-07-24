@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBar = () => {
     return (
-        <div className='bg-slate-900 p-12 lg:mx-28 my-5 rounded-xl'>
+        <div className='bg-slate-900 p-12 lg:mx-28 my-8 rounded-xl'>
             <div className='flex justify-center'>
                 <div className="form-control">
                     <div className="input-group">
