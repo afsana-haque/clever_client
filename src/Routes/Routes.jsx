@@ -11,6 +11,7 @@ import SignUp from "../pages/SignUp/SignUp";
 import AllColleges from "../pages/Home/AllColleges/AllColleges";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import CollegeDetails from "../pages/Home/AllColleges/CollegeDetails";
 
  export const router = createBrowserRouter([
     {
@@ -46,6 +47,11 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
           path: "/allColleges",
           element: <PrivateRoute><AllColleges></AllColleges></PrivateRoute>
         },
+        {
+          path: "/collegeDetail/:id",
+          element: <CollegeDetails></CollegeDetails>
+        }
+
       ]
     },
   ]);

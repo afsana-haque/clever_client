@@ -26,7 +26,7 @@ const researchPapersData = [
 
 const ResearchPapers = () => {
     return (
-        <div className='ml-4 mb-10'>
+        <div className='lg:ml-4 mb-10'>
             <h2 className="text-3xl font-bold mb-4 text-center py-10">Recommended Research Papers</h2>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 '>
             {researchPapersData.map((paper, index) => (
